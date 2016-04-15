@@ -40,93 +40,33 @@
 
             <Button
                 android:id="@+id/btn_popular_movies"
-                android:layout_width="360dp"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView"
-                android:layout_alignLeft="@+id/textView"
-                android:layout_alignRight="@+id/textView"
-                android:layout_alignStart="@+id/textView"
-                android:layout_below="@+id/textView"
-                android:layout_marginTop="17dp"
-                android:width="200dp"
-                android:background="@drawable/button_style"
-                android:text="@string/popular_movies"
-                android:textColor="#FFF" />
+                style="@style/CustomButtonStyle"
+                android:text="@string/popular_movies" />
 
             <Button
                 android:id="@+id/btn_stock_hawak"
-                android:layout_width="360dp"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView"
-                android:layout_alignLeft="@+id/textView"
-                android:layout_alignRight="@+id/textView"
-                android:layout_alignStart="@+id/textView"
-                android:layout_below="@+id/textView"
-                android:layout_marginTop="17dp"
-                android:width="200dp"
-                android:background="@drawable/button_style"
-                android:text="@string/stock_hawk"
-                android:textColor="#FFF" />
+                style="@style/CustomButtonStyle"
+                android:text="@string/stock_hawk" />
 
             <Button
                 android:id="@+id/btn_build_it_bigger"
-                android:layout_width="360dp"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView"
-                android:layout_alignLeft="@+id/textView"
-                android:layout_alignRight="@+id/textView"
-                android:layout_alignStart="@+id/textView"
-                android:layout_below="@+id/textView"
-                android:layout_marginTop="17dp"
-                android:width="200dp"
-                android:background="@drawable/button_style"
-                android:text="@string/build_it_bigger"
-                android:textColor="#FFF" />
+                style="@style/CustomButtonStyle"
+                android:text="@string/build_it_bigger" />
 
             <Button
                 android:id="@+id/btn_make_your_app_material"
-                android:layout_width="360dp"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView"
-                android:layout_alignLeft="@+id/textView"
-                android:layout_alignRight="@+id/textView"
-                android:layout_alignStart="@+id/textView"
-                android:layout_below="@+id/textView"
-                android:layout_marginTop="17dp"
-                android:width="200dp"
-                android:background="@drawable/button_style"
-                android:text="@string/make_your_app_material"
-                android:textColor="#FFF" />
+                style="@style/CustomButtonStyle"
+                android:text="@string/make_your_app_material" />
 
             <Button
                 android:id="@+id/btn_go_ubiquitous"
-                android:layout_width="360dp"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView"
-                android:layout_alignLeft="@+id/textView"
-                android:layout_alignRight="@+id/textView"
-                android:layout_alignStart="@+id/textView"
-                android:layout_below="@+id/textView"
-                android:layout_marginTop="17dp"
-                android:width="200dp"
-                android:background="@drawable/button_style"
-                android:text="@string/go_ubiquitous"
-                android:textColor="#FFF" />
+                style="@style/CustomButtonStyle"
+                android:text="@string/go_ubiquitous" />
 
             <Button
                 android:id="@+id/btn_capstone"
-                android:layout_width="360dp"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView"
-                android:layout_alignLeft="@+id/textView"
-                android:layout_alignRight="@+id/textView"
-                android:layout_alignStart="@+id/textView"
-                android:layout_below="@+id/textView"
-                android:layout_marginTop="17dp"
-                android:width="200dp"
-                android:background="@drawable/button_style"
-                android:text="@string/capstone"
-                android:textColor="#FFF" />
+                style="@style/CustomButtonStyle"
+                android:text="@string/capstone" />
 
         </TableLayout>
     </ScrollView>
