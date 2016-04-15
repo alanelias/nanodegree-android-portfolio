@@ -5,15 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="fill_parent"
     android:layout_width="fill_parent"
-    android:background="@drawable/gradient_bg" >
+    android:background="@drawable/gradient_bg"
+    tools:context="com.example.alaaelias.portfolio.MainActivity" >
 
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:fillViewport="false"
         android:orientation="vertical"
-        android:padding="10dp"
-        tools:context="com.example.alaaelias.portfolio.MainActivity">
+        android:padding="10dp">
 
         <TableLayout
             android:id="@+id/container"
