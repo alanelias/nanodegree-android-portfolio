@@ -2,11 +2,13 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.alaaelias.portfolio.MainActivity"
     android:paddingLeft="70dp"
-    android:paddingRight="70dp">
+    android:paddingRight="70dp"
+    android:background="@drawable/gradient_bg">
 
 
     <TextView
@@ -20,7 +22,8 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal|top"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textColor="#2E3D49" />
 
     <Button
         android:layout_width="360dp"
@@ -33,9 +36,9 @@
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:text="Popular Movies"
-        android:background="#2E3D49"
         android:textColor="#FFF"
-        android:width="200dp" />
+        android:width="200dp"
+        android:background="@drawable/button_style" />
 
     <Button
         android:layout_width="360dp"
@@ -48,7 +51,7 @@
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:text="Stock Hawk"
-        android:background="#2E3D49"
+        android:background="@drawable/button_style"
         android:textColor="#FFF"
         android:width="200dp" />
 
@@ -63,7 +66,7 @@
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:text="Build it Bigger"
-        android:background="#2E3D49"
+        android:background="@drawable/button_style"
         android:textColor="#FFF"
         android:width="200dp" />
 
@@ -78,7 +81,7 @@
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:text="Make Your App Material "
-        android:background="#2E3D49"
+        android:background="@drawable/button_style"
         android:textColor="#FFF"
         android:width="200dp" />
 
@@ -93,7 +96,7 @@
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:text="Go Ubiquitous"
-        android:background="#2E3D49"
+        android:background="@drawable/button_style"
         android:textColor="#FFF"
         android:width="200dp" />
 
@@ -108,8 +111,8 @@
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:text="Capstone"
-        android:background="#2E3D49"
         android:textColor="#FFF"
-        android:width="200dp" />
+        android:width="200dp"
+        android:background="@drawable/button_style" />
 
 </TableLayout>
