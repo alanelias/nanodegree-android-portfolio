@@ -26,8 +26,11 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
 
-        //  get a refrance to Popular Movies Button
-        final Button btn_popular_movies = (Button) this.findViewById(R.id.btn_popular_movies);
+        //  get a reference to the TableLayout witch is buttons container
+        final TableLayout container = (TableLayout) this.findViewById(R.id.container);
+
+        //  get a reference to Popular Movies Button
+        final Button btn_popular_movies = (Button) container.findViewById(R.id.btn_popular_movies);
         if (btn_popular_movies != null) {
             // on click or on touch event handler
             btn_popular_movies.setOnClickListener(new View.OnClickListener() {
@@ -37,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        //  get a refrance to Stock Hawk Button
-        final Button btn_stock_hawak = (Button) this.findViewById(R.id.btn_stock_hawak);
+        //  get a reference to Stock Hawk Button
+        final Button btn_stock_hawak = (Button) container.findViewById(R.id.btn_stock_hawak);
         if (btn_stock_hawak != null) {
             // on click or on touch event handler
             btn_stock_hawak.setOnClickListener(new View.OnClickListener() {
@@ -48,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        //  get a refrance to Build it Bigger Button
-        final Button btn_build_it_bigger = (Button) this.findViewById(R.id.btn_build_it_bigger);
+        //  get a reference to Build it Bigger Button
+        final Button btn_build_it_bigger = (Button) container.findViewById(R.id.btn_build_it_bigger);
         if (btn_build_it_bigger != null) {
             // on click or on touch event handler
             btn_build_it_bigger.setOnClickListener(new View.OnClickListener() {
@@ -59,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        //  get a refrance to Make Your App Material  Button
-        final Button btn_make_your_app_material = (Button) this.findViewById(R.id.btn_make_your_app_material);
+        //  get a reference to Make Your App Material  Button
+        final Button btn_make_your_app_material = (Button) container.findViewById(R.id.btn_make_your_app_material);
         if (btn_make_your_app_material != null) {
             // on click or on touch event handler
             btn_make_your_app_material.setOnClickListener(new View.OnClickListener() {
@@ -70,8 +73,8 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        //  get a refrance to Go Ubiquitous Button
-        final Button btn_go_ubiquitous = (Button) this.findViewById(R.id.btn_go_ubiquitous);
+        //  get a reference to Go Ubiquitous Button
+        final Button btn_go_ubiquitous = (Button) container.findViewById(R.id.btn_go_ubiquitous);
         if (btn_go_ubiquitous != null) {
             // on click or on touch event handler
             btn_go_ubiquitous.setOnClickListener(new View.OnClickListener() {
@@ -81,8 +84,8 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        //  get a refrance to Capstone  Button
-        final Button btn_capstone = (Button) this.findViewById(R.id.btn_capstone);
+        //  get a reference to Capstone  Button
+        final Button btn_capstone = (Button) container.findViewById(R.id.btn_capstone);
         if (btn_capstone != null) {
             // on click or on touch event handler
             btn_capstone.setOnClickListener(new View.OnClickListener() {
