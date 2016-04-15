@@ -3,6 +3,7 @@ package com.example.alaaelias.portfolio;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Layout;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,11 +14,19 @@ import android.widget.TableLayout;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    public final static String LOG_TITLE = "Portfolio";
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.v(LOG_TITLE, "onStop");
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Log.v(LOG_TITLE, "onCreate");
 
     }
 
@@ -119,8 +128,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        Log.v(LOG_TITLE, "onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.v(LOG_TITLE, "onPause");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.v(LOG_TITLE, "onDestroy");
+    }
+
+    @Override
     protected void onStart() {
         super.onStart();
+        Log.v(LOG_TITLE, "onStart");
     }
 
 
